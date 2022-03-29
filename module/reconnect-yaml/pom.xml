@@ -16,4 +16,19 @@
 
     <name>reconnect_yaml</name>
     <description>Provides reconnect location functionality in locations.yml</description>
+
+    <build>
+        <finalName>reconnect_yaml</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <outputDirectory>../target</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

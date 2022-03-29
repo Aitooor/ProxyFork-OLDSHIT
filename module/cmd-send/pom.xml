@@ -16,4 +16,18 @@
 
     <name>cmd_send</name>
     <description>Provides the gsend command</description>
+
+    <build>
+        <finalName>cmd_send</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <outputDirectory>../target</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -16,4 +16,19 @@
 
     <name>cmd_list</name>
     <description>Provides the glist command</description>
+
+    <build>
+        <finalName>cmd_list</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <outputDirectory>../target</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
