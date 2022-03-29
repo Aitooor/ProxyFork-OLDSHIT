@@ -36,6 +36,7 @@
 
     <build>
         <finalName>NasgarProxy</finalName>
+        <outputDirectory>../serverJars</outputDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
