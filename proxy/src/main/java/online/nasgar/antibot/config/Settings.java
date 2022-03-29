@@ -58,10 +58,10 @@ public class Settings extends Config
     {
 
         public String PREFIX = "&c&lAntiBot";
-        public String CHECKING = "%prefix%&7>> &aWait for validation to complete...";
-        public String CHECKING_CAPTCHA = "%prefix%&7>> & Enter the number from the picture in the chat";
-        public String CHECKING_CAPTCHA_WRONG = "%prefix%&7>> &cYou entered the captcha incorrectly, please try again. You have &a%s &c%s";
-        public String SUCCESSFULLY = "%prefix%&7>> &aTest passed, enjoy your game";
+        public String CHECKING = "%prefix% &aWait for validation to complete...";
+        public String CHECKING_CAPTCHA = "%prefix% & Enter the number from the picture in the chat";
+        public String CHECKING_CAPTCHA_WRONG = "%prefix% &cYou entered the captcha incorrectly, please try again. You have &a%s &c%s";
+        public String SUCCESSFULLY = "%prefix% &aTest passed, enjoy your game";
         public String KICK_MANY_CHECKS = "%prefix%%nl%%nl%&c Suspicious activity detected from your ip%nl%%nl%&aPlease try again in 10 minutes";
         public String KICK_NOT_PLAYER = "%prefix%%nl%%nl%&cYou are not verified, you may be a bot%nl%&7&oIf not, please try again";
         public String KICK_COUNTRY = "%prefix%%nl%%nl%&c Your country is not allowed on the server";
