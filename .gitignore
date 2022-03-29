@@ -1,5 +1,7 @@
 /.idea
 
+*.jar
+
 
 /api/target
 /bootstrap/target
