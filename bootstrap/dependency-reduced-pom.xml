@@ -11,6 +11,7 @@
   <version>1.18-R0.1-SNAPSHOT</version>
   <description>Java 1.7 loader for BungeeCord</description>
   <build>
+    <outputDirectory>../serverJars</outputDirectory>
     <finalName>NasgarProxy</finalName>
     <plugins>
       <plugin>
