@@ -1,5 +1,0 @@
-org/slf4j/impl/JDK14LoggerFactory.class
-org/slf4j/impl/StaticMarkerBinder.class
-org/slf4j/impl/StaticMDCBinder.class
-org/slf4j/impl/StaticLoggerBinder.class
-org/slf4j/impl/JDK14LoggerAdapter.class
